@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  background: radial-gradient(circle, rgba(86, 145, 224, 1) 17%, rgba(0, 117, 255, 1) 73%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper {
+  width: 400px;
+  background: linear-gradient(0deg, rgba(134, 223, 224, 1) 20%, rgba(79, 169, 231, 1) 74%);
+  padding: 2rem;
+  border-radius: 10px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.column select {
+  width: 100%;
+  padding: 8px;
+  font-size: 1rem;
+}
+
+button {
+  width: 100%;
+  margin-top: 20px;
+  font-size: 1.3rem;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  color: #fff;
+  background-color: rgb(174, 52, 52);
+  padding: 1rem 0;
+  cursor: pointer;
+}
+
+button:active {
+  background-color: rgb(150, 40, 40);
+}
+
+#alarmList {
+  margin-top: 1rem;
+  list-style: none;
+}
+
+#alarmList li {
+  background: white;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#alarmList button {
+  background: red;
+  padding: 5px;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
